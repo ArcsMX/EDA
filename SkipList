@@ -6,17 +6,21 @@ public class SkipList<T extends Comparable<T>>{
 
 NodoSkip<T> cabeza, cola;
 
-int cont;
-int niveles;
+  int cont;
+  int niveles;
 
-public skiplist(){
-cabeza = new NodoShip<T>();
-cola = new NodoShip<T>();
+  public skiplist(){
+    cabeza = new NodoShip<T>();
+    cola = new NodoShip<T>();
 
-cabeza.setDer(cola);
-cola.setIzq(cabeza);
+    cabeza.setDer(cola);
+    cola.setIzq(cabeza);
+  }
+
+  private NodoSkip<T> busca (T elim){
+    while(!cabeza.getDer().equalsTo(elim)){
+    
+    }
+  }
+
 }
-
-}
-
-
