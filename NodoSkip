@@ -1,0 +1,4 @@
+public class NodoSkip<T> {
+T elem;
+NodoSkip<T> izq,der,arriba,abajo;
+}
