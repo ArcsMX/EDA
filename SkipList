@@ -1,0 +1,22 @@
+/*
+Skip lists (buscar, insertar y eliminar)
+*/
+
+public class SkipList<T extends Comparable<T>>{
+
+NodoSkip<T> cabeza, cola;
+
+int cont;
+int niveles;
+
+public skiplist(){
+cabeza = new NodoShip<T>();
+cola = new NodoShip<T>();
+
+cabeza.setDer(cola);
+cola.setIzq(cabeza);
+}
+
+}
+
+
